@@ -7,7 +7,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-pickle_in=open(r'C:\Users\excel\Downloads\Deployment\Classifier.pkl','rb')
+pickle_in=open(r'Classifier.pkl','rb')
 Classifier=pickle.load(pickle_in)
 
 
